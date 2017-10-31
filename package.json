@@ -1,0 +1,16 @@
+{
+  "name": "shopdummyserver",
+  "version": "1.0.0",
+  "description": "API rest dummy para una tienda online",
+  "main": "index.js",
+  "scripts": {
+    "start":"json-server index.js --config config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Callejas",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.12.0"
+  }
+}
